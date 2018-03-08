@@ -52,17 +52,17 @@ const code = {
   appWithFetching: require("!!raw-loader!../assets/codesnippets/hoc/appWithFetching.js"),
   simpleImages: require("!!raw-loader!../assets/codesnippets/hoc/simpleImages.js"),
   installRedux: require("!!raw-loader!../assets/codesnippets/redux/installRedux.js"),
-  createStore: require("!!raw-loader!../assets/codesnippets/redux/createStore.js"),
+  createStore: require("!!raw-loader!../assets/codesnippets/redux/createStore.js")
 };
 
 const images = {
-  techknowDay: require("../assets/images/techknowday.png"),
+  techknowDay: require("../assets/images/techknowday.jpg"),
   trainers: require("../assets/images/trainers/trainers.jpg"),
   youareawesome: require("../assets/images/youareawesome.gif"),
   marsagram: require("../assets/images/marsagram/marsagram.jpg"),
   withoutFetch: require("../assets/images/hoc/withoutFetch.jpg"),
   withFetch: require("../assets/images/hoc/withFetch.jpg"),
-  redux: require("../assets/images/redux/redux.jpg"),
+  redux: require("../assets/images/redux/redux.jpg")
 };
 
 export default class Presentation extends React.Component {
@@ -214,10 +214,7 @@ export default class Presentation extends React.Component {
           transition={["fade"]}
           lang="js"
           code={code.withFetchingStart}
-          ranges={[
-            { loc: [0, 15], title: "" },
-            { loc: [0, 15], title: "" }
-          ]}
+          ranges={[{ loc: [0, 15], title: "" }, { loc: [0, 15], title: "" }]}
         />
 
         {/* withFetching implementation */}
@@ -228,7 +225,7 @@ export default class Presentation extends React.Component {
           ranges={[
             { loc: [0, 10], title: "State" },
             { loc: [10, 24], title: "Fetching data" },
-            { loc: [25, 41], title: "" },
+            { loc: [25, 41], title: "" }
           ]}
         />
 
@@ -237,10 +234,7 @@ export default class Presentation extends React.Component {
           transition={["fade"]}
           lang="js"
           code={code.appWithFetching}
-          ranges={[
-            { loc: [0, 14], title: "" },
-            { loc: [0, 14], title: "" },
-          ]}
+          ranges={[{ loc: [0, 14], title: "" }, { loc: [0, 14], title: "" }]}
         />
 
         {/* simplified Images.js */}
@@ -250,7 +244,7 @@ export default class Presentation extends React.Component {
           code={code.simpleImages}
           ranges={[
             { loc: [0, 15], title: "Simplify Images.js" },
-            { loc: [0, 15], title: "Simplify Images.js" },
+            { loc: [0, 15], title: "Simplify Images.js" }
           ]}
         />
 
@@ -290,7 +284,7 @@ export default class Presentation extends React.Component {
           code={code.installRedux}
           ranges={[
             { loc: [0, 4], title: "Install Redux" },
-            { loc: [0, 4], title: "Install Redux" },
+            { loc: [0, 4], title: "Install Redux" }
           ]}
         />
 
@@ -305,7 +299,7 @@ export default class Presentation extends React.Component {
             { loc: [29, 42], title: "Provider" },
             { loc: [43, 57], title: "App.js" },
             { loc: [58, 78], title: "App.js" },
-            { loc: [79, 87], title: "" },
+            { loc: [79, 87], title: "" }
           ]}
         />
 
